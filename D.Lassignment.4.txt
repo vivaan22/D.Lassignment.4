@@ -1,0 +1,61 @@
+1.
+TensorFlow is an open source framework developed by Google researchers to run machine learning,
+ deep learning and other statistical and predictive analytics workloads.
+It executes machine learning and neural networks with the help of python. 
+It builds an environment of networks to experiment with the algorithms of machine learning and 
+visualizes it using flow graphs.
+
+TensorFlow is among the best libraries available for accomplishing deep learning. 
+Developed by Google, the ML library is a get-it-started-instantly option for product-based firms as it
+ offers excellent model prototyping, production, and everything in between.
+2.
+ensorFlow implements a subset of the NumPy API, available as tf. experimental. numpy .
+ This allows running NumPy code, accelerated by TensorFlow, while also allowing access to all of TensorFlow's APIs.
+Tensorflow is a library for artificial intelligence, especially machine learning.
+ Numpy is a library for doing numerical calculations.
+3.
+Creates a sequence of numbers that begins at start and extends by increments of delta up to but not including limit . 
+The dtype of the resulting tensor is inferred from the inputs unless it is provided explicitly.
+ Like the Python builtin range , start defaults to 0, so that range(n) = range(0, n) .
+tf. constant is useful for asserting that the value can be embedded that way. 
+If the argument dtype is not specified, then the type is inferred from the type of value .
+ # Constant 1-D Tensor from a python list.
+4.
+TensorFlow represents tensors as n-dimensional arrays of base datatypes. 
+Each element in the Tensor has the same data type, and the data type is always known. The shape (that is,
+ the number of dimensions it has and the size of each dimension) might be only partially known.
+5.
+To determine how far the predicted values deviate from the actual values in the training data. 
+We change the model weights to make the loss minimum, and that is what training is all about.
+6.
+Below is a list of the metrics that we can use in Keras on classification problems.
+Binary Accuracy: binary_accuracy, acc.
+Categorical Accuracy: categorical_accuracy, acc.
+Sparse Categorical Accuracy: sparse_categorical_accuracy.
+Top k Categorical Accuracy: top_k_categorical_accuracy (requires you specify a k parameter)
+7.
+Step 1: Import the necessary module. First, let us import the necessary modules − 
+from keras import backend as K from keras. 
+Step 2: Define a layer class. 
+Step 3: Initialize the layer class. 
+Step 4: Implement build method. 
+Step 5: Implement call method. 
+Step 6: Implement compute_output_shape method.
+8.
+ the trainingOptions function does not provide the training options that we need for your task,
+ or custom output layers do not support the loss functions that we need, then we can define a custom training loop. 
+For networks that cannot be created using layer graphs, we can define custom networks as a function.
+9.
+activate tensorflow.
+pip install tf.contrib.keras.preprocessing.
+conda install tf.contrib.keras.preprocessing.
+10.
+Step-1) Load Data.
+Step-2) Define Keras Model.
+Step-3) Compile The Keras Model.
+Step-4) Start Training (Fit the Model)
+Step-5) Evaluate the Model.
+Step-6) Making Predictions.
+EndNote.
+
+
